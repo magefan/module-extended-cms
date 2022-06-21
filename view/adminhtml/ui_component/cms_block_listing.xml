@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Copyright © Magefan (support@magefan.com). All rights reserved.
+ * Please visit Magefan.com for license details (https://magefan.com/end-user-license-agreement).
+ */
+ -->
+
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <listingToolbar name="listing_top">
+        <filters name="listing_filters">
+            <filterInput name="content" provider="${ $.parentName }" sortOrder="0">
+                <settings>
+                    <dataScope>content</dataScope>
+                    <label translate="true">Content</label>
+                    <placeholder>Search By Block Content</placeholder>
+                </settings>
+            </filterInput>
+        </filters>
+    </listingToolbar>
+    <columns name="cms_block_columns">
+        <column name="content">
+            <settings>
+                <editor>
+                    <validation>
+                        <rule name="required-entry" xsi:type="boolean">true</rule>
+                    </validation>
+                    <editorType>text</editorType>
+                </editor>
+                <label translate="true">Content</label>
+            </settings>
+        </column>
+    </columns>
+</listing>

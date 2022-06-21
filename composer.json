@@ -1,0 +1,14 @@
+{
+    "name": "magefan/module-extended-cms",
+    "description": "Magefan Extended Cms for Magento 2",
+    "type": "magento2-module",
+    "version": "2.0.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magefan\\ExtendedCms\\": ""
+        }
+    }
+}
