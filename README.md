@@ -9,7 +9,7 @@
 
 This module allow to add content filter to the cms block grid and page grid
 
-<a href="https://github.com/magefan/hyva-theme-blog/archive/refs/heads/main.zip"><img width="190" height="70" src="https://magefan.com/media/wysiwyg/download-now_1.png"></a>
+<a href="https://github.com/magefan/module-extended-cms/archive/refs/heads/main.zip"><img width="190" height="70" src="https://magefan.com/media/wysiwyg/download-now_1.png"></a>
 
 
 ## Requirements
