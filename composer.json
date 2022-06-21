@@ -1,6 +1,9 @@
 {
     "name": "magefan/module-extended-cms",
     "description": "Magefan Extended Cms for Magento 2",
+    "require": {
+        "magefan/module-community" : ">=2.1.10"
+    },
     "type": "magento2-module",
     "version": "2.0.0",
     "autoload": {
